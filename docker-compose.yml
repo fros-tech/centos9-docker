@@ -1,0 +1,14 @@
+services:
+  cos9-1:
+    image: fros/centos9
+    container_name: cos9-1
+    hostname: cos9-1
+    restart: unless-stopped
+    tty: true
+  cos9-2:
+    image: fros/centos9
+    container_name: cos9-2
+    hostname: cos9-2
+    restart: unless-stopped
+    tty: true
+
